@@ -1,7 +1,7 @@
 # Learning Progress
 
 ## Beej Chapters Completed
-(none yet)
+- ch 5 — Pointers (basics)
 
 ## Goals
 - Goal 1 — JNI basics: not started
@@ -9,7 +9,7 @@
 - Goal 3 — JNI + io_uring: not started
 
 ## Current Focus
-Phase 1a — Pointers (Beej ch 5)
+Phase 1c — Pointers (advanced topics in ch 11, 23)
 
 ## Next Milestone
-Complete Beej ch 5 and do the pointer exercise
+Complete Beej ch 11 and 23, then do the pointer exercise
