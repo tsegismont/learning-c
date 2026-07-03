@@ -3,6 +3,9 @@
 *.so
 *.a
 
+# Where temporary experiments are made
+scratch
+
 # Compiled exercise binaries (no extension, matched by being executable in exercise dirs)
 exercises/*/build/
 
