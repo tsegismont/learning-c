@@ -1,0 +1,11 @@
+# Build artifacts
+*.o
+*.so
+*.a
+
+# Compiled exercise binaries (no extension, matched by being executable in exercise dirs)
+exercises/*/build/
+
+# IntelliJ
+.idea/
+*.iml
