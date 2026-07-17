@@ -4,6 +4,7 @@
 - ch 5 — Pointers (basics)
 - ch 11 — Arrays
 - ch 13 — Scope
+- ch 23 — Pointers II
 
 ## Goals
 - Goal 1 — JNI basics: not started
@@ -11,7 +12,7 @@
 - Goal 3 — JNI + io_uring: not started
 
 ## Current Focus
-Phase 1c — Pointers (exercises done: swap, array_reverse, generic_swap)
+Phase 1d — Manual memory management (ch 12: malloc/free)
 
 ## Next Milestone
-Read Beej ch 23 (Pointers II), then do ch 23-specific exercises
+Read Beej ch 12, then do ch 12 exercise
