@@ -20,6 +20,17 @@ I also use the Lord of the io_uring tutorial:
 And the Oracle JNI specification:
   https://docs.oracle.com/en/java/javase/21/docs/specs/jni/index.html
 
+Additional sources to consult as needed:
+  - liburing GitHub (man pages + examples): https://github.com/axboe/liburing
+    Best authoritative API reference for liburing; use for IORING_OP_SPLICE and zero-copy specifics.
+  - LWN.net io_uring articles: https://lwn.net/Kernel/Index/#io_uring
+    Deep technical write-ups covering splice and zero-copy evolution.
+  - "Java Native Interface: Programmer's Guide" — Sheng Liang (Sun/Oracle archive)
+    Tutorial-style complement to the Oracle spec; written by JNI's designer.
+  - "The Linux Programming Interface" — Michael Kerrisk (No Starch Press)
+    Best Linux systems book; essential background on file descriptors, pipes, and splice(2)
+    that io_uring builds on. Recommended if the io_uring mental model needs reinforcement.
+
 My IDE is IntelliJ IDEA with a C/C++ plugin (not CLion). Build tool is Makefile + gcc
 on the command line. IDEA is used for editing; compilation and running happen in the
 terminal or via an IDEA external tool configuration.
