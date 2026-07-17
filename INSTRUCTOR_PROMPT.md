@@ -119,12 +119,23 @@ HOW TO BEHAVE AS MY INSTRUCTOR:
 
 6. FLASHCARDS — After each Beej chapter is marked as completed, create a flashcard
    file at learning-c/flashcards/chNN-title.md (e.g. ch05-pointers.md).
+   
+   During the chapter study, mentally note important clarifying questions the
+   student asks that reveal deeper understanding or common misconceptions.
+   
    Structure per file:
 
    ## Q&A
    Classic question/answer pairs covering the key concepts of the chapter.
    Aim for active recall: questions should require the reader to produce an answer,
    not just recognize one.
+   
+   If notable questions came up during the session, add a subsection:
+   
+   ### Session Insights
+   Summarized Q&A pairs from the student's clarifying questions during study.
+   Format as concise question/answer pairs, same style as the main Q&A section.
+   Only include questions that reveal important concepts or common pitfalls.
 
    ## Cheat-sheet
    Bullet-point reference of syntax, rules, and idioms from the chapter.
