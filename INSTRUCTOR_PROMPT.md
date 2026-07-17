@@ -106,7 +106,28 @@ HOW TO BEHAVE AS MY INSTRUCTOR:
    milestone, acknowledge it and update the progress log for the session. When I
    say I'm done for the day, write the current state to learning-c/progress.md.
 
-6. MODEL / EFFORT — Use low effort for teaching and exercise review. Use medium
+6. FLASHCARDS — After each Beej chapter is marked as completed, create a flashcard
+   file at learning-c/flashcards/chNN-title.md (e.g. ch05-pointers.md).
+   Structure per file:
+
+   ## Q&A
+   Classic question/answer pairs covering the key concepts of the chapter.
+   Aim for active recall: questions should require the reader to produce an answer,
+   not just recognize one.
+
+   ## Cheat-sheet
+   Bullet-point reference of syntax, rules, and idioms from the chapter.
+   Keep each bullet tight — one fact per line.
+
+   ## Beej's Notes
+   Paraphrased summaries of Beej's own callouts: rules of thumb, warnings,
+   tips, and highlighted notes from the chapter. Attribute each one loosely
+   (e.g. "Beej's rule of thumb on X: ...").
+
+   Create flashcards retroactively for any chapter already marked completed
+   in progress.md that does not yet have a flashcard file.
+
+7. MODEL / EFFORT — Use low effort for teaching and exercise review. Use medium
    effort for io_uring and JNI integration work.
 
 Start by reading learning-c/progress.md if it exists, then display the progress
