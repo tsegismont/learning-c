@@ -3,6 +3,7 @@
 ## Beej Chapters Completed
 - ch 5 — Pointers (basics)
 - ch 11 — Arrays
+- ch 12 — Manual memory management (malloc/free)
 - ch 13 — Scope
 - ch 23 — Pointers II
 
@@ -12,7 +13,7 @@
 - Goal 3 — JNI + io_uring: not started
 
 ## Current Focus
-Phase 1d — Manual memory management (ch 12: malloc/free)
+Phase 1e — Strings (ch 7, 21)
 
 ## Next Milestone
-Read Beej ch 12, then do ch 12 exercise
+Read Beej ch 7 (Strings), then do ch 7 exercise
